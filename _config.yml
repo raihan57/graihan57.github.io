@@ -22,7 +22,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Publications", file: "publication.md"}
   - {title: "Teaching & Outreach", file:"/teaching.md"}
   -{title: "CV", file: "/raihan.pdf"}
-  -{title: "Contact", file:contact.md}
+  -{title: "Contact", file:"contact.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "graihan@uno.edu"}
