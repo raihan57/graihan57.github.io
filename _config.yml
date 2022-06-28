@@ -18,10 +18,11 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
 
   - {file: "README.md", title: "About me"}
-  - {file: "/blog.md", title: "Research"}
-  - {title: "Publications", file: "blog.md"}
-  - {title: "Teaching & Outreach", file:"/blog.md"}
+  - {file: "/research.md", title: "Research"}
+  - {title: "Publications", file: "publication.md"}
+  - {title: "Teaching & Outreach", file:"/teaching.md"}
   -{title: "CV", file: "/raihan.pdf"}
+  -{title: "Contact", file:contact.md}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "graihan@uno.edu"}
