@@ -16,10 +16,12 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "/raihan.pdf", title: "CV"}
-  - {title: "Lab", url: "https://childlab.com"}
-  - {title: "Blog", file:"/blog.md"}
+
   - {file: "README.md", title: "About me"}
+  - {file: "/blog.md", title: "Research"}
+  - {title: "Publications", file: "blog.md"}
+  - {title: "Teaching & Outreach", file:"/blog.md"}
+  -{title: "CV", file: "/raihan.pdf"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "graihan@uno.edu"}
